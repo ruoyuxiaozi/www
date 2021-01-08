@@ -1,0 +1,51 @@
+/* body */
+body {
+    background-color: #fff9de;
+    margin: 0;
+}
+
+/* 標題1*/
+h1 {
+    font-size: 3em;
+   font-style: italic;
+    color: #6b3008;
+    text-align: center;
+}
+
+/* 主視覺 */
+.mainvisual {
+    background-color: #0f1c2b;
+    border-bottom: solid 3px #64919e;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* article */
+article {
+    padding: 32px 16px;
+}
+
+/* 選單 */
+.navigation ul {
+    background-color: #000000;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #62d5e8;
+    text-decoration: underline;
+}
